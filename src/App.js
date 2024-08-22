@@ -36,7 +36,7 @@ function App() {
               <div className="collapse navbar-collapse justify-content-end" id="navigation">
                 <ul className="navbar-nav">
                   <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-                  <li className="nav-item"><a className="nav-link " href="#skill">Skills</a></li>
+                  {/* <li className="nav-item"><a className="nav-link " href="#skill">Skills</a></li> */}
                   <li className="nav-item"><a className="nav-link" href="#project">Projects</a></li>
                   <li className="nav-item"><a className="nav-link " href="#experience">Experience</a></li>
                   <li className="nav-item"><a className="nav-link " href="#contact">Contact</a></li>
@@ -111,7 +111,7 @@ function App() {
                       <div className="h3 title mt-0">Basic Information</div>
                       <div className="row">
                         <div className="col-sm-4"><strong className="text-uppercase">Age:</strong></div>
-                        <div className="col-sm-8">22</div>
+                        <div className="col-sm-8">26</div>
                       </div>
                       <div className="row mt-3">
                         <div className="col-sm-4"><strong className="text-uppercase">Email:</strong></div>
@@ -123,7 +123,7 @@ function App() {
                       </div>
                       <div className="row mt-3">
                         <div className="col-sm-4"><strong className="text-uppercase">Address:</strong></div>
-                        <div className="col-sm-8">Bacău, România</div>
+                        <div className="col-sm-8">Iasi, România</div>
                       </div>
                       <div className="row mt-3">
                         <div className="col-sm-4"><strong className="text-uppercase">Language:</strong></div>
@@ -140,7 +140,7 @@ function App() {
 
           {/* ---------------------------------------------Skill------------------------------------- */}
 
-          <div className="section" id="skill">
+          {/* <div className="section" id="skill">
             <div className="container">
               <div className="h4 title text-center mb-4">Professional Skills</div>
               <div className="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
@@ -240,7 +240,7 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
 
           {/* ---------------------------Projects------------------------------------- */}
