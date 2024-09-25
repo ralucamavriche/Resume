@@ -332,10 +332,6 @@ function App() {
                         <FontAwesomeIcon icon={faCode} size="3x" />
                         <p className="font-weight-bold">MedCare</p>
                       </div>
-                      <div className="card-title">
-                        <FontAwesomeIcon icon={faCode} size="3x" />
-                        <p className="font-weight-bold">MedCare</p>
-                      </div>
                       <div className="card-subtitle mb-2 text-muted">
                         React, MongoDB, Express.js, Node.js
                       </div>
@@ -724,6 +720,22 @@ function App() {
                   <div className="col-md-9">
                     <div className="card-body">
                       <div className="h5">Faculty of Computer Science</div>
+                      <p className="category">
+                        University of Alexandru Ioan Cuza
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-3 bg-danger">
+                    <div className="card-body cc-education-header">
+                      <p>10/2021 - 07/2024</p>
+                      <div className="h5">Master Degree </div>
+                    </div>
+                  </div>
+                  <div className="col-md-9">
+                    <div className="card-body">
+                      <div className="h5">Software Development and Business Information Systems, FEAA</div>
                       <p className="category">
                         University of Alexandru Ioan Cuza
                       </p>
